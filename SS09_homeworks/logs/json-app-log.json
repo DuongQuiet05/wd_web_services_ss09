@@ -1,0 +1,142 @@
+{
+  "@timestamp": "2025-07-21T10:00:54.879759+07:00",
+  "level": "INFO",
+  "thread_name": "background-preinit",
+  "logger_name": "org.hibernate.validator.internal.util.Version",
+  "message": "HV000001: Hibernate Validator 8.0.2.Final"
+}
+{
+  "@timestamp": "2025-07-21T10:00:54.9207564+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "com.duong.ss09_homeworks.Ss09HomeworksApplication",
+  "message": "Starting Ss09HomeworksApplication using Java 17.0.12 with PID 8012 (D:\\Learn\\JavaWeb_Services\\homeworks\\SS09_homeworks\\build\\classes\\java\\main started by duong in D:\\Learn\\JavaWeb_Services\\homeworks\\SS09_homeworks)"
+}
+{
+  "@timestamp": "2025-07-21T10:00:54.9217571+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "com.duong.ss09_homeworks.Ss09HomeworksApplication",
+  "message": "No active profile set, falling back to 1 default profile: \"default\""
+}
+{
+  "@timestamp": "2025-07-21T10:00:54.9597525+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message": "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"
+}
+{
+  "@timestamp": "2025-07-21T10:00:54.9597525+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message": "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"
+}
+{
+  "@timestamp": "2025-07-21T10:00:55.8754572+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message": "Tomcat initialized with port 8080 (http)"
+}
+{
+  "@timestamp": "2025-07-21T10:00:55.8855419+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.apache.coyote.http11.Http11NioProtocol",
+  "message": "Initializing ProtocolHandler [\"http-nio-8080\"]"
+}
+{
+  "@timestamp": "2025-07-21T10:00:55.8865532+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.apache.catalina.core.StandardService",
+  "message": "Starting service [Tomcat]"
+}
+{
+  "@timestamp": "2025-07-21T10:00:55.8875425+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.apache.catalina.core.StandardEngine",
+  "message": "Starting Servlet engine: [Apache Tomcat/10.1.42]"
+}
+{
+  "@timestamp": "2025-07-21T10:00:55.922779+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message": "Initializing Spring embedded WebApplicationContext"
+}
+{
+  "@timestamp": "2025-07-21T10:00:55.922779+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message": "Root WebApplicationContext: initialization completed in 963 ms"
+}
+{
+  "@timestamp": "2025-07-21T10:00:56.0273688+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping",
+  "message": "Adding welcome page template: index"
+}
+{
+  "@timestamp": "2025-07-21T10:00:56.3038287+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message": "LiveReload server is running on port 35729"
+}
+{
+  "@timestamp": "2025-07-21T10:00:56.3208755+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.apache.coyote.http11.Http11NioProtocol",
+  "message": "Starting ProtocolHandler [\"http-nio-8080\"]"
+}
+{
+  "@timestamp": "2025-07-21T10:00:56.3361408+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message": "Tomcat started on port 8080 (http) with context path '/'"
+}
+{
+  "@timestamp": "2025-07-21T10:00:56.3441392+07:00",
+  "level": "INFO",
+  "thread_name": "restartedMain",
+  "logger_name": "com.duong.ss09_homeworks.Ss09HomeworksApplication",
+  "message": "Started Ss09HomeworksApplication in 1.983 seconds (process running for 2.837)"
+}
+{
+  "@timestamp": "2025-07-21T10:01:07.4916447+07:00",
+  "level": "INFO",
+  "thread_name": "http-nio-8080-exec-1",
+  "logger_name": "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message": "Initializing Spring DispatcherServlet 'dispatcherServlet'"
+}
+{
+  "@timestamp": "2025-07-21T10:01:07.4925867+07:00",
+  "level": "INFO",
+  "thread_name": "http-nio-8080-exec-1",
+  "logger_name": "org.springframework.web.servlet.DispatcherServlet",
+  "message": "Initializing Servlet 'dispatcherServlet'"
+}
+{
+  "@timestamp": "2025-07-21T10:01:07.4939226+07:00",
+  "level": "INFO",
+  "thread_name": "http-nio-8080-exec-1",
+  "logger_name": "org.springframework.web.servlet.DispatcherServlet",
+  "message": "Completed initialization in 1 ms"
+}
+{
+  "@timestamp": "2025-07-21T10:01:07.5151506+07:00",
+  "level": "WARN",
+  "thread_name": "http-nio-8080-exec-1",
+  "logger_name": "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message": "Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]"
+}
+{"@timestamp":"2025-07-21T10:01:27.9875082+07:00","level":"INFO","thread_name":"SpringApplicationShutdownHook","logger_name":"org.springframework.boot.web.embedded.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}
+{"@timestamp":"2025-07-21T10:01:28.0205361+07:00","level":"INFO","thread_name":"tomcat-shutdown","logger_name":"org.springframework.boot.web.embedded.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}

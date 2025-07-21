@@ -1,0 +1,2 @@
+create database web_services_ss08_theories;
+use web_services_ss08_theories;

@@ -1,0 +1,2 @@
+create database web_services_ss09_homeworks;
+use web_services_ss09_homeworks;

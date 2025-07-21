@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hw01</title>
+</head>
+<body>
+<div>
+  <h3>hw01</h3>
+  Logging là quá trình ghi lại các sự kiện, trạng thái, hoặc thông tin hoạt động của ứng dụng trong quá trình thực thi. Các bản ghi log (log entries) thường bao gồm thông tin như thời gian, cấp độ log, thông điệp, và bối cảnh (context) của sự kiện
+  <br>
+  Tại sao cần log?
+  <br>
+  Debugging: Giúp xác định nguyên nhân lỗi bằng cách ghi lại các sự kiện dẫn đến lỗi.
+  Giám sát hệ thống: Theo dõi trạng thái ứng dụng, như số lượng yêu cầu, thời gian xử lý, hoặc lỗi bất thường.
+  Kiểm tra bảo mật: Ghi lại các hoạt động đáng ngờ, ví dụ: truy cập trái phép.
+  Bảo trì và tối ưu hóa: Cung cấp dữ liệu để phân tích hiệu suất và cải thiện ứng dụng.
+  Tuân thủ quy định: Một số hệ thống yêu cầu ghi log để đáp ứng các tiêu chuẩn pháp lý hoặc kiểm toán.
+</div>
+<hr>
+
+<div>
+  <h3>hw02</h3>
+  Các cấp độ log
+  <br>
+  TRACE: Cấp độ chi tiết nhất, ghi lại các thông tin rất nhỏ trong luồng thực thi của ứng dụng.
+  <br>
+  DEBUG: Ghi lại thông tin chi tiết để hỗ trợ debug trong quá trình phát triển.
+  <br>
+  INFO: Ghi lại các sự kiện quan trọng hoặc trạng thái bình thường của ứng dụng.
+  <br>
+  WARN: Ghi lại các vấn đề tiềm ẩn hoặc tình huống bất thường nhưng không gây lỗi nghiêm trọng.
+  <br>
+  ERROR: Ghi lại các lỗi nghiêm trọng ảnh hưởng đến hoạt động của ứng dụng.
+  <br>
+  FATAL: Ghi lại các lỗi nghiêm trọng khiến ứng dụng dừng hoạt động hoàn toàn.
+  <br>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+    <tr>
+      <th>Cấp độ</th>
+      <th>Cách sử dụng</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><strong>ERROR</strong></td>
+      <td>Dùng để ghi lại các lỗi nghiêm trọng không thể khắc phục, ảnh hưởng đến hoạt động của ứng dụng.</td>
+    </tr>
+    <tr>
+      <td><strong>WARN</strong></td>
+      <td>Dùng để ghi lại các vấn đề tiềm ẩn hoặc lỗi có thể khắc phục mà không làm gián đoạn ứng dụng.</td>
+    </tr>
+    <tr>
+      <td><strong>INFO</strong></td>
+      <td>Dùng để ghi lại các sự kiện quan trọng hoặc thông tin kiểm toán về hoạt động của ứng dụng.</td>
+    </tr>
+    <tr>
+      <td><strong>DEBUG</strong></td>
+      <td>Dùng để ghi lại thông tin chi tiết phục vụ cho việc điều tra và gỡ lỗi trong quá trình phát triển.</td>
+    </tr>
+    <tr>
+      <td><strong>TRACE</strong></td>
+      <td>Dùng để ghi lại thông tin rất chi tiết, hỗ trợ điều tra sâu các luồng thực thi trong quá trình phát triển.</td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+<hr>
+
+<div>
+  <h3>
+    hw03
+  </h3>
+  Tạo một dự án Spring Boot mới và thêm các dependency cho SLF4J và Lombok.
+</div>
+
+<div>
+  <h3>hw04</h3>
+  Tạo file application.properties hoặc application.yml để cấu hình và ghi logging.
+</div>
+
+<div>
+  <h3>hw05</h3>
+  Tạo một API đơn giản trong Spring Boot và sử dụng logging để ghi lại thông tin khi xảy ra lỗi.
+  Yêu cầu:
+  Khi có ngoại lệ xảy ra, log thông tin chi tiết về lỗi .
+</div>
+
+<div>
+  <h3>
+    hw06
+  </h3>
+  Log thông tin dưới dạng JSON cho các sự kiện quan trọng trong ứng dụng.
+  Sử dụng một thư viện như Logstash Logback Encoder để thực hiện việc này.
+</div>
+
+<div>
+  <h3>hw07</h3>
+  Tạo controller MovieController với endpoint:
+  POST /movies: Thêm phim mới.
+  Cài đặt cấp độ ghi log từ DEBUG trở lên trong file application.properties .
+  Nếu có exception khi thêm phim, ghi log ra file app.log với thông tin chi tiết về lỗi.
+  Nếu thêm phim thành công thì ghi log ra file  app.log với thông tin : tên phim + thời gian thêm .
+</div>
+
+<div>
+  <h3>hw08</h3>
+  Thiết kế API quản lý phim với logging cho các chức năng sửa và xóa.
+</div>
+
+<div>
+  <h3>hw09</h3>
+  GET /movies: Lấy danh sách phim ( có tham số String searchMove) để lấy về danh sách phim , nếu có truyền tham số searchMovie thì trả về danh sách phim có tên phim chứa searchMovie .
+</div>
+
+<div>
+  <h3>hw10</h3>
+  Tạo Endpoint Lấy Danh Sách Từ Khóa Tìm Kiếm:
+  Tạo Endpoint lấy về danh sách phim được gợi ý
+</div>
+</body>
+</html>

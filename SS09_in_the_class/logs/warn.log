@@ -1,0 +1,10 @@
+2025-07-18 15:14:15 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-18 15:14:15 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-18 15:14:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-18 15:14:22 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1fc18f38-e64c-4620-9459-44a564299d0a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-18 15:14:45 [http-nio-8080-exec-2] WARN  c.d.s.s.impl.AccountServiceImpl - Test log warning for this system!

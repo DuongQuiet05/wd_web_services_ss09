@@ -1,0 +1,9 @@
+2025-07-18 15:14:13 [restartedMain] INFO  c.d.s.Ss08TheoriesApplication - Starting Ss08TheoriesApplication using Java 17.0.12 with PID 8244 (D:\Learn\JavaWeb_Services\theories\SS08_theories\build\classes\java\main started by duong in D:\Learn\JavaWeb_Services\theories\SS08_theories)
+2025-07-18 15:14:13 [restartedMain] INFO  c.d.s.Ss08TheoriesApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 15:14:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-18 15:14:15 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a08674c
+2025-07-18 15:14:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-18 15:14:24 [restartedMain] INFO  c.d.s.Ss08TheoriesApplication - Started Ss08TheoriesApplication in 11.883 seconds (process running for 13.178)
+2025-07-18 15:14:45 [http-nio-8080-exec-2] INFO  c.d.s.s.impl.AccountServiceImpl - 2025-07-18T15:14:45.290001300 - getAccount 1
+2025-07-18 15:16:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-18 15:16:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
